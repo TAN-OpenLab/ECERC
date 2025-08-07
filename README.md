@@ -1,5 +1,6 @@
 # **ECERC**
-This repository contains the official implementation of our paper *ECERC: Evidence-Cause Attention Network for Multi-Modal Emotion Recognition in Conversation*, published at ACL 2025.
+This repository contains the official implementation of our paper [*ECERC: Evidence-Cause Attention Network for Multi-Modal Emotion Recognition in Conversation*](https://aclanthology.org/2025.acl-long.102/), published at ACL 2025.
+
 ### 1. Requirements
 The experiments were conducted on a Windows 10 operating system equipped with an NVIDIA A100 GPU (80GB). Further system specifications are provided in the accompanying *OS_info.txt* and *requirement.yml* files.
 ```
@@ -8,6 +9,7 @@ conda env create -f requirement.yml -n ecerc
 
 ### 2. Datasets
 The benchmark datasets used in our paper are IEMOCAP and MELD. Due to copyright restrictions, we provide links to the [preprocessed versions](https://drive.google.com/drive/folders/1yXot2Kcdt7ELbxwAL1lB9yPWokcr7vhq?usp=drive_link) only. The original datasets can be downloaded from their respective official sources.
+
 ### 3. Evaluation
 You can download our pretrained ECERC_MODEL(" "/"_2"/"_3") for each dataset from our **Huggingface Repository:** [zt-ai/ECERC](https://huggingface.co/zt-ai/ECERC).
 After downloading, place the models in the corresponding ```IEMOCAP```/```MELD``` folder.
