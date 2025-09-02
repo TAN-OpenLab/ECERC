@@ -8,7 +8,7 @@ conda env create -f requirement.yml -n ecerc
 ```
 
 ### 2. Datasets
-The benchmark datasets used in our paper are IEMOCAP and MELD. Due to copyright restrictions, we provide links to the [preprocessed versions](https://drive.google.com/drive/folders/1yXot2Kcdt7ELbxwAL1lB9yPWokcr7vhq?usp=drive_link) only. The original datasets can be downloaded from their respective official sources.
+The benchmark datasets used in our paper are IEMOCAP and MELD. Due to copyright restrictions, we provide links to the [preprocessed versions](https://drive.google.com/drive/folders/1DGoPEBvMgMOge7u20wjKn6slYe4awyQi?usp=sharing) only. The original datasets can be downloaded from their respective official sources.
 
 ### 3. Evaluation
 You can download our pretrained ECERC_MODEL(" "/"_2"/"_3") for each dataset from our **Huggingface Repository:** [zt-ai/ECERC](https://huggingface.co/zt-ai/ECERC).
